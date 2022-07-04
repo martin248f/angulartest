@@ -12,6 +12,9 @@ import { MiaTableModule } from '@agencycoda/mia-table';
 import { MiaFormModule } from '@agencycoda/mia-form';
 import { MiaLoadingModule } from '@agencycoda/mia-loading';
 
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -27,6 +30,9 @@ import { MiaLoadingModule } from '@agencycoda/mia-loading';
     MiaTableModule,
     MiaLoadingModule,
     MiaFormModule,
+    //Angular Material
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [
     { 
